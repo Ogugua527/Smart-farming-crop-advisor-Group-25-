@@ -1,0 +1,17 @@
+[
+  "tests/test_crop.py::TestCropData::test_json_serialisable_and_sane",
+  "tests/test_crop.py::TestCropData::test_prompt_context",
+  "tests/test_crop.py::TestCropSelection::test_normalize_invalid",
+  "tests/test_crop.py::TestCropSelection::test_normalize_valid",
+  "tests/test_crop.py::TestCropSelection::test_supported_list",
+  "tests/test_crop.py::TestCropSelection::test_validate_raises_friendly_message",
+  "tests/test_crop.py::TestWeatherSuitability::test_good_conditions",
+  "tests/test_crop.py::TestWeatherSuitability::test_heavy_rain_warning",
+  "tests/test_crop.py::TestWeatherSuitability::test_missing_or_bad_input_does_not_crash",
+  "tests/test_crop.py::TestWeatherSuitability::test_too_hot",
+  "tests/test_recommendations.py::test_hot_and_dry_conditions_warn",
+  "tests/test_recommendations.py::test_suitable_conditions_have_no_warnings",
+  "tests/test_recommendations.py::test_unsupported_crop_is_rejected",
+  "tests/test_storage.py::test_activity_round_trip_and_delete",
+  "tests/test_storage.py::test_missing_activity_file_is_empty"
+]
